@@ -5,7 +5,10 @@
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
 # documentation.
-
+permissions:
+  contents: write
+  security-events: write
+  
 name: Project CI/CD Flow
 
 on:
